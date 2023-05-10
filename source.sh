@@ -7,8 +7,6 @@ echo "Welcome to the entrance to the cave...No one would blame you if you turned
 echo -n "Type your answer here: "
 read fate
 
-#CORRECT="y"
-
 if [[ "$fate" == *"y"* ]] || [[ "$fate" == *"Y"* ]] ; then
 	echo "Then buckle up young pup! You have a long journey ahead of you!"
 	cd level1
@@ -63,11 +61,11 @@ function pickUpItem {
 	read answer
 	if [[ "$answer" == *"y"* ]] || [[ "$answer" == *"Y"* ]]; then
 		if [[ "$item" != "" ]]; then
-			echo "You take your $item out of your pack, and put in your new $1!"
+			sleepyEcho "You take your $item out of your pack, and put in your new $1!"
 			item=$1
 		else
 			item=$1
-			echo "You put your new $item in your pack!"
+			sleepyEcho "You put your new $item in your pack!"
 		fi
 	else 	
 		echo "You leave the $1 on the ground."	
