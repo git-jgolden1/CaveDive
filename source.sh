@@ -1,5 +1,3 @@
-#source.sh
-
 function sleepyEcho {
 	echo $1
 	sleep 2
@@ -7,7 +5,7 @@ function sleepyEcho {
 
 echo "Welcome to the entrance to the cave...No one would blame you if you turned back now...are you sure you want to enter?"
 echo -n "Type your answer here: "
-read -r fate
+read fate
 
 #CORRECT="y"
 
