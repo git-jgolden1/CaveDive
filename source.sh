@@ -35,7 +35,7 @@ function s {
 function die {
 sleepyEcho "You have died..."
 	sleepyEcho "I knew you could never make it"
-	cd /Users/jgolden1/CommandLineGame
+	cd /Users/jgolden1/CommandLineGames/CaveDive
 }
 
 function quit {
