@@ -32,6 +32,7 @@ function s {
 	source $1
 }
 
+
 function die {
 sleepyEcho "You have died..."
 	sleepyEcho "I knew you could never make it"

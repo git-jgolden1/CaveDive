@@ -10,5 +10,5 @@ if [[ $answer == *"y"* ]] || [[ $answer == *"Y"* ]]; then
 else
 	sleepyEcho "You allow yourself to fall and keep on falling, and miraculously end up in a pool of water just deep enough for you to land in unharmed."
 	echo "You take a look around, and realize you have arrived at the second level of the cave!"
-	cd ~/CommandLineGame/level2
+	cd ~/CommandLineGame/CaveDive/level2
 fi
