@@ -32,15 +32,28 @@ function s {
 	source $1
 }
 
+function use {
+	currentFile=$PWD
+	case $1 in 
+		"goodLuckCharm")
+			sleepyEcho "You use your good luck charm."
+			sleepyEcho "You feel a little luckier!"
+			;;
+
+		*)
+			sleepyEcho "Item not recognized...Sorry about that."
+	esac
+}
+
 
 function die {
 sleepyEcho "You have died..."
 	sleepyEcho "I knew you could never make it"
-	cd /Users/jgolden1/CommandLineGames/CaveDive
+	cd ~/CommandLineGames/CaveDive
 }
 
 function quit {
-	cd ~/CommandLineGame
+	cd ~/CommandLineGames/CaveDive
 }
 
 function holeJump {
